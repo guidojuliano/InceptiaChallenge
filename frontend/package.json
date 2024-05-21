@@ -1,0 +1,40 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@mui/icons-material": "^5.15.18",
+    "@mui/material": "^5.15.18",
+    "@mui/x-date-pickers": "^7.5.0",
+    "axios": "^1.6.8",
+    "date-fns": "^3.6.0",
+    "express": "^4.19.2",
+    "react": "^18.3.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "start:server": "node server",
+    "format": "prettier --write ."
+  },
+  "eslintConfig": {},
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie < 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "prettier": "^3.2.5",
+    "typescript": "^3.2.1"
+  }
+}
